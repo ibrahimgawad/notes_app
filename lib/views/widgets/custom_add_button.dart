@@ -13,7 +13,7 @@ class CustomAddButton extends StatelessWidget {
         padding: const EdgeInsets.symmetric(vertical: 12),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(12),
-          color: Kprimarycolor,
+          color: kPrimaryColor,
         ),
         child: const Center(
           child: Text(

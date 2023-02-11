@@ -10,13 +10,13 @@ class CustomTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextField(
-      cursorColor: Kprimarycolor,
+      cursorColor: kPrimaryColor,
       maxLines: maxLines,
       decoration: InputDecoration(
         hintText: hint,
         border: buildBorder(),
         enabledBorder: buildBorder(),
-        focusedBorder: buildBorder(Kprimarycolor),
+        focusedBorder: buildBorder(kPrimaryColor),
       ),
     );
   }
